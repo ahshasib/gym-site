@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+
     let wrapper = document.getElementById('wrapper');
     let toplayer = document.querySelector('.top');
     let handel = document.querySelector('.handle');
@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function(){
         delta = (e.clientX - window.innerWidth/2)*0.5;
         handel.style.left = e.clientX + delta + 'px';
         toplayer.style.width = e.clientX + skew + delta + 'px';
-    })
-});
+    });
+
 
 
 var TrandingSlider = new Swiper('.tranding-slider',{
